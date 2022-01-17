@@ -658,6 +658,7 @@ Project Gallery
 #info{
   margin-bottom: 12px;
   color: var(--clr-primary-5);
+  text-align: center;
 }
 
 .prev-btn, .next-btn{
@@ -709,7 +710,7 @@ h3 {
     border-color: #000; 
   }
 
-.btn, .form-control {
+.btn-submit, .form-control {
   height: 55px; 
 }
 
@@ -733,28 +734,6 @@ form.border-right {
     border-bottom: 2px solid var(--clr-grey-6);
 
   }
-label.error {
-  font-size: 12px;
-  color: red; 
-}
-
-#message {
-  resize: vertical; 
-}
-
-#form-message-warning, #form-message-success {
-  display: none; 
-}
-
-#form-message-warning {
-  color: #B90B0B; 
-}
-
-#form-message-success {
-  color: #55A44E;
-  font-size: 18px;
-  font-weight: bold; 
-}
 
 .submitting {
   float: left;
